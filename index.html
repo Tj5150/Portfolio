@@ -12,24 +12,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="tj-favicon.png" type="image">
 </head>
 <body>
     <div class="container">
         <!--Nav Bar-->
         <nav>
-            <div class="contact"><a>Contact me</a></div>
-            <div class="About"><a>About Me</a></p></div>
-            <div class="name"><a href="HomePage.html">Tj Anderson</a></div>
-            <div class="Projects"><a>Projects</a></div>
-            <div class="skills"><a>Skills</a></div>
-            <div class="menu">
+            <div class="contact"><a href="Contact.html">Contact me</a></div>
+            <div class="About"><a href="About Me.html">About Me</a></div>
+            <div class="name"><a id="home" href="index.html">Home</a></div>
+            <div class="Projects"><a id="projects" href="Projects.html">Projects</a></div>
+            <div class="skills"><a href="Skills.html">Skills</a></div>
+            <button class="menu">
                 <div class="menu-content">
                     <p>About Me</p>
                     <p>Projects</p>
                     <p>Skills</p>
                     <p>Contact Me</p>
                 </div>
-            </div>
+            </button>
         </nav>
         <!--Home screen-->
         <div class="main">
@@ -40,9 +41,11 @@
                My experiances and contact info are also available.
             </div>
         </div>
+        <!--Footer-->
         <footer>
-            <div class='foot'>Programmed and Designed by TJ Anderson<br>Backgrounds from <a id="svg" href="https://www.svgbackgrounds.com/">Svg Backgrounds</a></div>
+            <div class='foot'><p class="info">Programmed and Designed by TJ Anderson<br>Backgrounds from <a id="svg" href="https://www.svgbackgrounds.com/">Svg Backgrounds</p></a></div>
         </footer>
     </div>
 </body>
+<script>document.getElementById("home").style.color = "purple";</script>
 </html>
