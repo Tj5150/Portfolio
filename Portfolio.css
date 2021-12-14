@@ -7,7 +7,7 @@
 
 /* DeskTop HomePage */
 .container {
-  height: 46rem;
+  height: 42rem;
   width: 100%;
 }
 
@@ -28,6 +28,8 @@ nav {
   box-sizing: border-box;
   margin: 0;
   border: 4px solid black;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 a {
@@ -149,10 +151,10 @@ a {
 /*Footer*/
 footer {
   background-color: #ff7700;
-  height: 2rem;
+  height: 2.3rem;
   width: 100%;
   position: absolute;
-  top: 44.5rem;
+  top: 44.8rem;
 }
 
 .foot {
@@ -162,6 +164,7 @@ footer {
   text-align: center;
   font-size: large;
   width: 25%;
+  height: 2rem;
 }
 
 #svg {
@@ -467,7 +470,7 @@ p:hover {
 
 /* Contact Page */
 .container3 {
-  height: 46rem;
+  height: 47rem;
   width: 100%;
 }
 
@@ -482,7 +485,8 @@ p:hover {
 
 .footer3 {
   position: relative;
-  top: 16rem;
+  top: 16.5rem;
+  height: 2.3rem;
 }
 
 .title3 {
@@ -532,6 +536,7 @@ p:hover {
   height: 100vh;
   width: 100%;
   margin: 0;
+  background-color: #ff7700;
 }
 
 .title4 {
