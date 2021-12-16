@@ -168,10 +168,10 @@ footer {
   /* html {
     width: 100%;
   } */
-  /* body {
+  body {
     width: 100%;
     overflow: hidden;
-  } */
+  }
   .container {
     height: 57rem;
     width: 100%;
@@ -180,7 +180,7 @@ footer {
 
   body {
     background-color: #ff7700;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23cc0000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23d6002b' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23b10022' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d9004b' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23b2003d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d3006c' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ac0057' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23c4008c' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%239e0071' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://w.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23cc0000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23d6002b' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23b10022' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d9004b' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23b2003d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d3006c' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ac0057' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23c4008c' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%239e0071' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: cover;
     height: 90vh;
@@ -239,8 +239,7 @@ footer {
     font-size: xxx-large;
     text-align: center;
     height: 4rem;
-    width: 40rem;
-    right: 5rem;
+    width: 30rem;
   }
 
   .contact {
@@ -280,6 +279,7 @@ footer {
     display: none;
     right: 0.75rem;
     font-size: large;
+    top: 4.5rem;
   }
 
   .menu:hover .menu-content {
@@ -294,6 +294,7 @@ footer {
     /* right: 30rem; */
     /* height: 20rem; */
     left: 0;
+    font-family: lobster, cursive;
   }
 
   .main {
@@ -316,7 +317,7 @@ footer {
     transform: rotate(360deg);
   }
   .title {
-    font-family: Oswald;
+    font-family: lobster, cursive;
     font-size: xx-large;
     width: 90%;
     overflow-wrap: break-word;
@@ -334,9 +335,10 @@ footer {
   footer {
     background-color: #ff7700;
     height: 3rem;
-    width: 100%;
+    width: 20rem;
     position: absolute;
     bottom: 0;
+    right: 10rem;
   }
 
   .foot {
@@ -344,6 +346,7 @@ footer {
     text-align: center;
     font-size: large;
     width: 100%;
+    background-color: #ff7700;
   }
 
   #svg {
@@ -459,6 +462,106 @@ p:hover {
   color: blueviolet;
 }
 
+/* #### Mobile Phones Portrait About Me #### */
+@media screen and (max-device-width: 48rem) {
+  nav {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0.25rem solid black;
+    flex-grow: 4;
+  }
+
+  .menu {
+    background-color: transparent;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='%23000000'%3E%3Cpath d='M20 8H10c-1.1 0-2-.9-2-2s.9-2 2-2h10c1.1 0 2 .9 2 2s-.9 2-2 2zM20 14H10c-1.1 0-2-.9-2-2s.9-2 2-2h10c1.1 0 2 .9 2 2s-.9 2-2 2zM20 20H10c-1.1 0-2-.9-2-2s.9-2 2-2h10c1.1 0 2 .9 2 2s-.9 2-2 2z'%3E%3C/path%3E%3Ccircle cx='4' cy='6' r='2'%3E%3C/circle%3E%3Ccircle cx='4' cy='12' r='2'%3E%3C/circle%3E%3Ccircle cx='4' cy='18' r='2'%3E%3C/circle%3E%3C/g%3E%3C/svg%3E");
+    background-size: 3.75rem 3.75rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: grid;
+    flex-direction: row;
+    text-align: center;
+    height: 4rem;
+    width: 5rem;
+    position: relative;
+    display: inline-block;
+    border: none;
+  }
+
+  .menu-content {
+    position: absolute;
+    background-color: #ff7700;
+    min-width: 5rem;
+    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
+    padding: 0.31rem 0.31rem;
+    z-index: 1;
+    display: none;
+    right: 0.75rem;
+    font-size: large;
+    top: 4.5rem;
+  }
+
+  .main2 {
+    width: 100%;
+    height: 45.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  .menu:hover .menu-content {
+    display: block;
+  }
+  #name2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 7rem;
+    font-family: lobster;
+    position: relative;
+    width: 20rem;
+    top: 1rem;
+    text-align: center;
+  }
+
+  .description {
+    font-family: lobster, cursive;
+    font-size: xx-large;
+    width: 90%;
+    overflow-wrap: break-word;
+    height: auto;
+    margin-bottom: 3rem;
+    margin-left: -10%;
+    margin-top: -10vh;
+    font-size: 4vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: flex-start;
+    position: relative;
+    top: 8rem;
+    left: 10rem;
+    margin-right: 16rem;
+  }
+
+  .footer2 {
+    background-color: #ff7700;
+    height: 3rem;
+    width: 23rem;
+    position: absolute;
+    bottom: 0;
+    top: 45rem;
+    left: 0.2rem;
+  }
+
+  .foot2 {
+    font-family: monospace;
+    text-align: center;
+    font-size: large;
+    width: 100%;
+    background-color: #ff7700;
+  }
+}
 /* Contact Page */
 .container3 {
   height: 47rem;
@@ -516,6 +619,101 @@ p:hover {
   text-align: center;
   font-size: 2rem;
   font-family: lobster;
+}
+
+/* #### Mobile Phones Portrait Contact #### */
+@media screen and (max-device-width: 48rem) {
+  nav {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0.25rem solid black;
+    flex-grow: 4;
+  }
+
+  .menu {
+    background-color: transparent;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='%23000000'%3E%3Cpath d='M20 8H10c-1.1 0-2-.9-2-2s.9-2 2-2h10c1.1 0 2 .9 2 2s-.9 2-2 2zM20 14H10c-1.1 0-2-.9-2-2s.9-2 2-2h10c1.1 0 2 .9 2 2s-.9 2-2 2zM20 20H10c-1.1 0-2-.9-2-2s.9-2 2-2h10c1.1 0 2 .9 2 2s-.9 2-2 2z'%3E%3C/path%3E%3Ccircle cx='4' cy='6' r='2'%3E%3C/circle%3E%3Ccircle cx='4' cy='12' r='2'%3E%3C/circle%3E%3Ccircle cx='4' cy='18' r='2'%3E%3C/circle%3E%3C/g%3E%3C/svg%3E");
+    background-size: 3.75rem 3.75rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: grid;
+    flex-direction: row;
+    text-align: center;
+    height: 4rem;
+    width: 5rem;
+    position: relative;
+    display: inline-block;
+    border: none;
+  }
+
+  .menu-content {
+    position: absolute;
+    background-color: #ff7700;
+    min-width: 5rem;
+    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
+    padding: 0.31rem 0.31rem;
+    z-index: 1;
+    display: none;
+    right: 0.75rem;
+    font-size: large;
+    top: 4.5rem;
+  }
+
+  .menu:hover .menu-content {
+    display: block;
+  }
+
+  .main3 {
+    width: 100%;
+    height: 45.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+
+  .title3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 4.5rem;
+    font-family: lobster;
+    position: relative;
+    width: 23rem;
+    text-align: center;
+    right: 0.4rem;
+    top: 1rem;
+  }
+
+  .icon-p {
+    position: relative;
+    top: 3rem;
+    width: 90%;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: lobster;
+    margin-right: 9rem;
+  }
+
+  .footer3 {
+    background-color: #ff7700;
+    height: 3rem;
+    width: 23rem;
+    position: absolute;
+    bottom: 0;
+    top: 45rem;
+  }
+
+  .foot {
+    font-family: monospace;
+    text-align: center;
+    font-size: large;
+    width: 100%;
+    background-color: #ff7700;
+    height: 3rem;
+    padding-right: 1rem;
+  }
 }
 /*Projects page*/
 
@@ -580,7 +778,7 @@ p:hover {
 }
 .tic:hover {
   height: 14.375rem;
-  width: 20.625rem;
+  width: 22rem;
 }
 
 .cal {
@@ -592,7 +790,7 @@ p:hover {
 
 .cal:hover {
   height: 14.375rem;
-  width: 20.625rem;
+  width: 22rem;
 }
 .sts {
   border: black 0.5rem solid;
@@ -603,7 +801,7 @@ p:hover {
 
 .sts:hover {
   height: 14.375rem;
-  width: 20.625rem;
+  width: 22rem;
 }
 .tic2 {
   font-size: 1.5rem;
@@ -620,6 +818,76 @@ p:hover {
   font-family: lobster;
 }
 
+/* #### Mobile Phones Portrait Projects #### */
+@media screen and (max-device-width: 48rem) {
+  nav {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0.25rem solid black;
+    flex-grow: 4;
+  }
+
+  .menu {
+    background-color: transparent;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg fill='%23000000'%3E%3Cpath d='M20 8H10c-1.1 0-2-.9-2-2s.9-2 2-2h10c1.1 0 2 .9 2 2s-.9 2-2 2zM20 14H10c-1.1 0-2-.9-2-2s.9-2 2-2h10c1.1 0 2 .9 2 2s-.9 2-2 2zM20 20H10c-1.1 0-2-.9-2-2s.9-2 2-2h10c1.1 0 2 .9 2 2s-.9 2-2 2z'%3E%3C/path%3E%3Ccircle cx='4' cy='6' r='2'%3E%3C/circle%3E%3Ccircle cx='4' cy='12' r='2'%3E%3C/circle%3E%3Ccircle cx='4' cy='18' r='2'%3E%3C/circle%3E%3C/g%3E%3C/svg%3E");
+    background-size: 3.75rem 3.75rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: grid;
+    flex-direction: row;
+    text-align: center;
+    height: 4rem;
+    width: 5rem;
+    position: relative;
+    display: inline-block;
+    border: none;
+  }
+
+  .menu-content {
+    position: absolute;
+    background-color: #ff7700;
+    min-width: 5rem;
+    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
+    padding: 0.31rem 0.31rem;
+    z-index: 1;
+    display: none;
+    right: 0.75rem;
+    font-size: large;
+    top: 4.5rem;
+  }
+
+  .menu:hover .menu-content {
+    display: block;
+  }
+
+  .title4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 4.8rem;
+    font-family: lobster;
+    position: relative;
+    width: 40rem;
+    right: 8.5rem;
+  }
+
+  .main4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    top: 2.5rem;
+    left: 1rem;
+  }
+
+  .tic {
+    border: black 0.5rem solid;
+    border-radius: 2vw;
+    height: 12.5rem;
+    width: 20rem;
+  }
+}
 /* Skills Page */
 .title5 {
   margin-top: 0;
